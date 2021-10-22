@@ -7,6 +7,9 @@ body {
   height: 100%;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-image: url(assets/full-background.png);
+  background-position: center;
+  background-size: cover;
 }
 
 body {
@@ -21,6 +24,7 @@ main {
   background: url(assets/background-mobile.svg);
   width: 375px;
   height: 812px;
+  border-radius: 1rem;
 }
 
 .container {
@@ -56,6 +60,7 @@ main {
 h1 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
+  cursor: default;
 }
 
 a {
@@ -72,6 +77,7 @@ a {
 
 p {
   margin-top: 2rem;
+  cursor: default;
 }
 
 ul {
@@ -83,6 +89,22 @@ ul {
   justify-content: center;
 }
 
-.social {
-  border-radius: .25rem;
+.social-btn {
+  position: relative;
+  border-radius: 0.25rem;
+  width: 50px;
+  top: 0;
+  transition: all ease 0.3s;
+}
+.social-btn:hover {
+  border-radius: 50%;
+  top: -8px;
+}
+
+h2 {
+  cursor: default;
+  margin-top: 4rem;
+  background: -webkit-linear-gradient(#ffb500, #fb00ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

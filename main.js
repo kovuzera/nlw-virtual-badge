@@ -1,6 +1,6 @@
 const linksSocialMedia = {
     github: "kovuzera",
-    youtube: "channel/UC_7a6omWFYW-0IrVzEgIAkQ",
+    linkedin: "in/giomarrone",
     facebook: "giovannea.marrone.marrone",
     instagram: "marrone_gio",
     twitter: "kovugod",
