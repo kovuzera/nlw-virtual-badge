@@ -35,6 +35,19 @@ main {
   color: var(--grey);
 }
 
+.avatar-seal {
+  animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .avatar {
   margin: 11.5rem auto 0;
   position: relative;
