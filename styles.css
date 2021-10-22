@@ -82,3 +82,7 @@ ul {
   gap: 0.5rem;
   justify-content: center;
 }
+
+.social {
+  border-radius: .25rem;
+}

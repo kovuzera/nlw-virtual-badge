@@ -2,6 +2,8 @@
 
 <html>
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giovanne Marrone - DoWhile 2021</title>
 
     <link rel="stylesheet" href="styles.css" />
@@ -21,45 +23,46 @@
             <img src="assets/build.svg" alt="Selo Rocketseat" />
           </span>
           <img
-            src="assets/avatar.jpg"
+            src="assets/default-avatar.png"
             alt="Foto de perfil"
             class="profile-avatar"
+            id="userImage"
           />
         </div>
-        <h1>Giovanne Marrone</h1>
+        <h1 id="userName">Usuário</h1>
 
-        <a href="https://github.com/kovuzera/" target="_blank"
-          ><img src="assets/github 2.svg" alt="Github" />kovuzera</a
+        <a id="userProfile" class="social" href="https://github.com/" target="_blank"
+          ><img src="assets/github 2.svg" alt="Github" /><span id="userLogin">GitHub Profile</span></a
         >
 
-        <p>A junior front-end web developer focused on studying to one day be able to help people through code!</p>
+        <p id="userBio">
+          Bio
+        </p>
 
-        <ul>
-          <li>
-            <a href="https://www.youtube.com/user/AnarquiaGame" target="_blank">
-              <img src="assets/youtube.svg" alt="YouTube"
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://www.youtube.com" target="_blank">
+              <img class="social" src="assets/youtube.svg" alt="YouTube"
             /></a>
           </li>
-          <li>
-            <a href="https://www.instagram.com/marrone_gio/" target="_blank">
-              <img src="assets/instagram.svg" alt="Instagram"
+          <li class="instagram">
+            <a href="https://www.instagram.com" target="_blank">
+              <img class="social" src="assets/instagram.svg" alt="Instagram"
             /></a>
           </li>
-          <li>
-            <a
-              href="https://www.facebook.com/giovannea.marrone.marrone/"
-              target="_blank"
-            >
-              <img src="assets/facebook.svg" alt="Facebook"
+          <li class="facebook">
+            <a href="https://www.facebook.com" target="_blank">
+              <img class="social" src="assets/facebook.svg" alt="Facebook"
             /></a>
           </li>
-          <li>
-            <a href="https://twitter.com/kovugod" target="_blank">
-              <img src="assets/twitter.svg" alt="Twitter"
+          <li class="twitter">
+            <a href="https://twitter.com" target="_blank">
+              <img class="social" src="assets/twitter.svg" alt="Twitter"
             /></a>
           </li>
         </ul>
       </div>
     </main>
+    <script src="main.js"></script>
   </body>
 </html>
