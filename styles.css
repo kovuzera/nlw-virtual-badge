@@ -21,7 +21,6 @@ body {
 }
 
 @media (max-width: 719px) /* Mobile */ {
-  
   .hole {
     display: none;
   }
@@ -128,7 +127,8 @@ body {
     cursor: default;
     margin-top: 4rem;
     background: -webkit-linear-gradient(#ffb500, #fb00ff);
-    background-clip: text;
+    background-clip: none;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
@@ -265,7 +265,8 @@ body {
     cursor: default;
     margin-top: 4rem;
     background: -webkit-linear-gradient(#ffb500, #fb00ff);
-    background-clip: text;
+    background-clip: none;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
@@ -397,7 +398,8 @@ body {
     cursor: default;
     margin-top: 4rem;
     background: -webkit-linear-gradient(#ffb500, #fb00ff);
-    background-clip: text;
+    background-clip: none;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
