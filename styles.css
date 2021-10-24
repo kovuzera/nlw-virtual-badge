@@ -20,6 +20,20 @@ body {
   place-items: center;
 }
 
+.social-btn {
+  position: relative;
+  border-radius: 0.25rem;
+  width: 50px;
+  top: 0;
+  transition: all ease 0.3s;
+  opacity: 50%;
+}
+.social-btn:hover {
+  opacity: 100%;
+  border-radius: 50%;
+  top: -8px;
+}
+
 @media (max-width: 719px) /* Mobile */ {
   .hole {
     display: none;
@@ -109,18 +123,6 @@ body {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
-  }
-  
-  .social-btn {
-    position: relative;
-    border-radius: 0.25rem;
-    width: 50px;
-    top: 0;
-    transition: all ease 0.3s;
-  }
-  .social-btn:hover {
-    border-radius: 50%;
-    top: -8px;
   }
   
   h2 {
@@ -249,18 +251,6 @@ body {
     justify-content: center;
   }
   
-  .social-btn {
-    position: relative;
-    border-radius: 0.25rem;
-    width: 50px;
-    top: 0;
-    transition: all ease 0.3s;
-  }
-  .social-btn:hover {
-    border-radius: 50%;
-    top: -8px;
-  }
-  
   h2 {
     cursor: default;
     margin-top: 2.5rem;
@@ -380,18 +370,6 @@ body {
     display: flex;
     gap: 0.5rem;
     justify-content: center;
-  }
-  
-  .social-btn {
-    position: relative;
-    border-radius: 0.25rem;
-    width: 50px;
-    top: 0;
-    transition: all ease 0.3s;
-  }
-  .social-btn:hover {
-    border-radius: 50%;
-    top: -8px;
   }
   
   h2 {
